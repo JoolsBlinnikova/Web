@@ -1,0 +1,40 @@
+body
+{
+    background: url("background.jpg");
+}
+#tabl
+{
+    margin-left: auto;
+    margin-right: auto;
+    color: #380709;
+    text-align: center;
+    font-size: 25px;
+    border: 15px outset #76070d;
+    background: #ffd3d1
+}
+
+#recordTable
+{
+    margin-top: 20px;
+    margin-left: 560px;
+    font-size: 30px;
+    color: #76070d;
+    font-weight: bolder;
+
+}
+
+#home
+{
+    border: double #a82237;
+    font-size: 20px;
+    margin-left: 640px;
+}
+
+#tb{
+    color: #000000;
+    border: 8px outset #76070d;
+    background: #ffd3d1;
+    font-weight: bolder;
+    text-align: center;
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/game.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div id="mainCanvas">
+    <div id="rools">
+        <div id="username"></div>
+        <div id="level"></div>
+        <div id="score"></div>
+        <div>Следующая фигура:</div>
+        <canvas id="nextFigure" width="120" height="120"></canvas>
+        <br>
+        <div id="buttons">Клавиши для управления:</div>
+        <div class="text">Стрелка влево - перемещение фигуры влево</div>
+        <div class="text">Стрелка вправо - перемещение фигуры вправо</div>
+        <div class="text">Стрелка вверх - поворот фигуры </div>
+        <div class="text">Стрелка вниз - ускорение движения фигуры</div>
+        <div class="text">Enter - уронить фигуру</div>
+    </div>
+    <canvas id="tetris" width="240" height="400"></canvas>
+    <script src="JS/game.js"></script>
+</div>
+</body>
+</html>

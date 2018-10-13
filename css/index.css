@@ -1,0 +1,31 @@
+body {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+
+    background: url("background.jpg");
+    color: #76070d;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 4em;
+    text-align: center;
+    align-items: center;
+}
+#name{
+    font-size: 30px;
+    margin-top: 50px;
+    color: #000000;
+}
+
+#username {
+    font-size: 30px;
+    text-align: center;
+}
+
+#enter {
+    font-size: 50px;
+    color: #76070d;
+    margin-top: 10px;
+
+}
+

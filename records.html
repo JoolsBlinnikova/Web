@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tetris</title>
+    <link href="css/records.css" rel="stylesheet">
+</head>
+
+<body>
+<div>
+    <dialog id="tb">
+        <p>Вы проиграли!</p>
+        <p>Ваш результат:</p>
+        <div id="score"></div>
+        <button id="close" onclick="close()">Закрыть</button>
+    </dialog>
+
+    <script>
+        var dialog = document.querySelector('dialog');
+        dialog.show();
+        document.querySelector('#close').onclick = function() {dialog.close();};
+        document.getElementById('score').innerText = localStorage['username.score'];
+    </script>
+    <div id="recordTable">Таблица Рекордов</div>
+    <table id="tabl">
+        <thead>
+        <th>Лучшие игроки</th>
+        <th>Результат</th>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table><br>
+    <button id="home" onclick="goHome()">Home</button>
+</div>
+<script src="JS/records.js" > </script>
+
+</body>
+</html>

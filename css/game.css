@@ -1,0 +1,36 @@
+body
+{
+    background: url("background.jpg");
+}
+#mainCanvas
+{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 120px;
+    display: flex;
+    font-size: 18px;
+}
+#buttons
+{
+    font-weight: bold;
+}
+#tetris
+{
+    margin-left: 100px;
+    background: #ffd3d1;
+    border: 15px outset #76070d;
+}
+#rools
+{
+    display: block;
+}
+#username
+{
+    font-weight: bold;
+    font-size: 32px;
+}
+.text
+{
+    display: list-item;
+    background: #ffd3d1;
+}
